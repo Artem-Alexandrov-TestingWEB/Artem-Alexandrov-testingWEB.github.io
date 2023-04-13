@@ -1,0 +1,29 @@
+* {
+  font-family: "MuseoModerno", sans-serif;
+}
+ 
+h1, h2, h3, h4, h5, h6 {margin: 0;}
+
+@import "header";
+@import "mixins";
+@import "variables";
+@import "promo";
+@import "buttons";
+@import "advant";
+@import "consultation";
+@import "titles";
+@import "forms";
+@import "carusel";
+@import "catalog";
+@import "feed";
+@import "footer";
+@import "modal";
+
+
+
+
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
